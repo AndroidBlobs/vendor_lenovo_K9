@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EccTable>
+    <!-- 
+        The attribute definition for tag EccEntry:
+        - Ecc: the emergnecy number
+        - Category: the service category
+        - Condition: there are following values:
+            - 0: ecc only when no sim
+            - 1: ecc always
+            - 2: MMI will show ecc but send to nw as normal call
+    -->
+    
+    <!-- Srilanka start --> 
+    <EccEntry Ecc="118" Category="0" Condition="0" /> 
+    <EccEntry Ecc="110" Category="0" Condition="0" /> 
+    <EccEntry Ecc="119" Category="0" Condition="0" /> 
+    <!-- Srilanka end --> 
+    
+    <!-- UAE start --> 
+    <EccEntry Ecc="991" Category="0" Condition="0" /> 
+    <EccEntry Ecc="997" Category="0" Condition="0" /> 
+    <EccEntry Ecc="998" Category="0" Condition="0" /> 
+    <EccEntry Ecc="999" Category="0" Condition="0" /> 
+    <!-- UAE end --> 
+    
+    <!-- Indonesia start --> 
+    <EccEntry Ecc="110" Category="0" Condition="0" /> 
+    <EccEntry Ecc="112" Category="0" Condition="1" /> 
+    <EccEntry Ecc="113" Category="0" Condition="0" /> 
+    <EccEntry Ecc="115" Category="0" Condition="0" /> 
+    <EccEntry Ecc="118" Category="0" Condition="0" /> 
+    <!-- Indonesia end --> 
+    
+    <!-- Nepal start --> 
+    <EccEntry Ecc="100" Category="0" Condition="0" /> 
+    <EccEntry Ecc="101" Category="0" Condition="0" /> 
+    <EccEntry Ecc="102" Category="0" Condition="0" /> 
+    <EccEntry Ecc="103" Category="0" Condition="0" /> 
+    <!-- Nepal end --> 
+    
+    <!-- Saudi Arabia start -->
+    <EccEntry Ecc="911" Category="0" Condition="1" /> 
+    <!-- 
+    <EccEntry Ecc="112" Category="0" Condition="0" /> 
+    <EccEntry Ecc="997" Category="0" Condition="0" /> 
+    <EccEntry Ecc="998" Category="0" Condition="0" /> 
+    <EccEntry Ecc="999" Category="0" Condition="0" /> 
+    --> 
+    <!-- Saudi Arabia end --> 
+    
+    <!-- Myanmar start --> 
+    <EccEntry Ecc="191" Category="0" Condition="0" /> 
+    <EccEntry Ecc="192" Category="0" Condition="0" /> 
+    <EccEntry Ecc="199" Category="0" Condition="0" /> 
+    <!-- Myanmar end -->
+</EccTable>
